@@ -1,7 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/api/setup", "destination": "/api/webhook?action=setup" }
+  ],
   "functions": {
-    "api/**/*.py": {
+    "api/webhook.py": {
       "maxDuration": 10,
       "excludeFiles": "{.venv/**,**/__pycache__/**,*.bat,data/**,bot.py,create_samples.py}"
     }
