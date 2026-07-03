@@ -12,7 +12,7 @@ if str(ROOT_DIR) not in sys.path:
 
 from telegram import Update
 
-from app import build_application
+from bot_core import build_application
 from config import get_webhook_secret
 
 logging.basicConfig(level=logging.INFO)

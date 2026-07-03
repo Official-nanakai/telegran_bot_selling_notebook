@@ -2,7 +2,7 @@ import logging
 
 from telegram import Update
 
-from app import build_application
+from bot_core import build_application
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
