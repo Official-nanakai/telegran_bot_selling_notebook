@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/webhook.py": {
+      "maxDuration": 30
+    },
+    "api/setup.py": {
+      "maxDuration": 30
+    }
+  }
+}

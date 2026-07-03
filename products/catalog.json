@@ -1,0 +1,23 @@
+[
+  {
+    "id": "planner_2026",
+    "title": "Планер 2026 — акция!",
+    "description": "Ежедневный планер на год: цели, привычки, трекер настроения и еженедельные обзоры. Скидка — всего 1 ⭐!",
+    "price_stars": 1,
+    "file": "planner_2026.pdf"
+  },
+  {
+    "id": "budget_tracker",
+    "title": "Трекер бюджета",
+    "description": "Интерактивный блокнот для учёта доходов, расходов и накоплений с готовыми таблицами.",
+    "price_stars": 40,
+    "file": "budget_tracker.pdf"
+  },
+  {
+    "id": "study_notes",
+    "title": "Конспекты для учёбы",
+    "description": "Шаблоны для лекций, карточек и повторения материала. Подходит для GoodNotes и Notability.",
+    "price_stars": 35,
+    "file": "study_notes.pdf"
+  }
+]
